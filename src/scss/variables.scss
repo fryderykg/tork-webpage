@@ -1,0 +1,18 @@
+$colorGreen: rgb(61, 210, 174);
+$colorPurple: rgb(131, 95, 168);
+$colorGrey: rgb(157, 165, 176);
+$colorGreyBlue: rgb(58, 77, 96);
+$colorGreyDark: rgb(49, 58, 71);
+
+.bgGreen {
+  background: $colorGreen;
+}
+
+.bgPurple {
+  background: $colorPurple;
+}
+
+.bgBlackTransparent {
+  background: rgba(0, 0, 0, 0.8);
+}
+

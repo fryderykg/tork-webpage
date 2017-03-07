@@ -1,4 +1,6 @@
 @import "typography";
+@import "navbar";
+@import "variables";
 
 
 * {
@@ -16,3 +18,15 @@ body {
   transform: translate(0, -50%)
 }
 
+header {
+  background: url("../images/homebg.jpg") right/cover;
+  min-height: 600px;
+}
+
+.btn-style {
+  border-radius: 20px;
+  border: none;
+  color: white;
+  height: 40px;
+  min-width: 100px;
+}

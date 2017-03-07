@@ -18,9 +18,25 @@ body {
   transform: translate(0, -50%)
 }
 
-header {
-  background: url("../images/homebg.jpg") right/cover;
-  min-height: 600px;
+.home {
+  background: url("../images/homebg.jpg") center/cover;
+  min-height: 100vh;
+  .slogan {
+    color: white;
+    margin-top: 30vh;
+    padding-right: 40px;
+    h1 {
+      font-size: 60px;
+      font-weight: 200;
+    }
+    p {
+      font-size: 16px;
+    }
+    @media (max-width: 576px) {
+      h1 { font-size: 40px; }
+    }
+
+  }
 }
 
 .btn-style {

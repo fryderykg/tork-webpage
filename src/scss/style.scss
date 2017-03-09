@@ -48,7 +48,6 @@ body {
   }
 }
 
-
 .about {
   min-height: 500px;
   .text {
@@ -72,6 +71,7 @@ body {
 
 .features {
   padding-top: 50px;
+  padding-bottom: 100px;
   font-weight: 300;
   h2 {
     color: $colorGreyDark;
@@ -84,5 +84,38 @@ body {
     color: $colorGreyDark;
     line-height: 2em;
     font-size: 14px;
+  }
+}
+
+.portfolio {
+  background: $colorGreyDark;
+  min-height: 500px;
+  padding-bottom: 50px;
+  padding-top: 50px;
+  h2 {
+    color: white;
+    font-weight: 300;
+  }
+  p {
+    color: $colorGreyLight;
+    padding: 50px 150px;
+    @media (max-width: 768px) {
+      padding: 50px;
+    }
+  }
+  .image {
+    position: relative;
+  }
+  img {
+    margin-left: auto;
+    margin-right: auto;
+    max-height: 580px;
+    max-width: 100%;
+  }
+  a {
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%)
   }
 }

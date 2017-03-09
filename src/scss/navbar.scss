@@ -8,7 +8,7 @@
   z-index: 5;
   input {
     background: $colorGreyDark;
-    color: $colorGrey;
+    color: $colorGreyLight;
     padding-left: 30px;
     width: 262px;
     @media (max-width: 500px) {
@@ -16,7 +16,7 @@
     }
   }
   .glyphicon-search {
-    color: $colorGrey;
+    color: $colorGreyLight;
     font-size: 16px;
     left: -35px;
     position: relative;
@@ -41,7 +41,7 @@
 }
 
 .sidenav {
-  background-color: #111;
+  background-color: $colorGreyDark;
   display: flex;
   flex-direction: column;
   height: 0;
@@ -52,16 +52,16 @@
   top: 0;
   transition: 0.5s;
   width: 100%;
-  z-index: 1;
+  z-index: 10;
   a {
-    color: #818181;
+    color: $colorPurple;
     display: inline-block;
     font-size: 25px;
     text-align: center;
     text-decoration: none;
     transition: 0.3s;
     &:hover {
-      color: #f1f1f1;
+      color: $colorPurpleLight;
     }
     @media (max-height: 320px) {
       font-size: 18px;

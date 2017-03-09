@@ -131,7 +131,6 @@ body {
 }
 
 .news {
-  //min-height: 500px;
   .text {
     padding: 50px 50px 50px 50px;
   }
@@ -154,6 +153,7 @@ body {
   }
 }
 
+// IMAGES
 .news-1 {
   min-height: 500px;
   background: url("../images/news_1.jpg") center/cover;
@@ -174,4 +174,22 @@ body {
   background: url("../images/news_4.jpg") center/cover;
   padding: 0;
   margin: 0;
+}
+
+footer {
+  background: $colorGreyVeryDark;
+  color: white;
+  min-height: 80px;
+  p {
+    line-height: 80px;
+    margin: 0;
+  }
+  a {
+    color: $colorPurple;
+    font-weight: 400;
+    &:hover {
+      color: $colorPurpleLight;
+      text-decoration: none;
+    }
+  }
 }

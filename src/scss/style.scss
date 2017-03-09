@@ -176,12 +176,57 @@ body {
   margin: 0;
 }
 
+.contact {
+  background: $colorGrey;
+  color: white;
+  min-height: 500px;
+  padding-bottom: 50px;
+  padding-top: 50px;
+  @media (max-width: 768px){
+    text-align: center;
+  }
+  .contact-item {
+    padding: 0;
+  }
+  ul {
+    padding: 0;
+  }
+  li {
+    list-style-type: none;
+  }
+  a {
+    color: white;
+    cursor: pointer;
+    &:hover {
+      color: $colorPurpleLight;
+      text-decoration: none;
+    }
+  }
+  .input-group {
+    border: none;
+    border-radius: 0;
+    padding-bottom: 20px;
+    .form-control {
+      border-radius: 0;
+    }
+    input {
+      height: 50px;
+    }
+    button {
+      border-radius: 0;
+      height: 50px;
+    }
+    i {
+      font-size: 30px;
+    }
+  }
+}
 footer {
   background: $colorGreyVeryDark;
   color: white;
   min-height: 80px;
   p {
-    line-height: 80px;
+    padding: 25px 25px 0 25px;
     margin: 0;
   }
   a {

@@ -18,9 +18,18 @@ body {
   transform: translate(0, -50%)
 }
 
+.btn-style {
+  border-radius: 20px;
+  border: none;
+  color: white;
+  font-size: 18px;
+  height: 40px;
+  min-width: 100px;
+}
+
 .home {
   background: url("../images/homebg.jpg") center/cover;
-  min-height: 100vh;
+  min-height: 700px;
   .slogan {
     color: white;
     margin-top: 30vh;
@@ -39,10 +48,24 @@ body {
   }
 }
 
-.btn-style {
-  border-radius: 20px;
-  border: none;
-  color: white;
-  height: 40px;
-  min-width: 100px;
+
+.features {
+  min-height: 500px;
+  .text {
+    padding: 100px 0 150px 20px;
+    p {
+      margin: 50px 0;
+    }
+    @media (max-width: 768px) {
+      padding: 50px 50px 150px;
+      text-align: center;
+    }
+  }
+  img {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -80px;
+    max-height: 580px;
+    max-width: 100%;
+  }
 }

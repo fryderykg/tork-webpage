@@ -5,6 +5,7 @@
   padding: 10px;
   position: fixed;
   width: 100vw;
+  z-index: 5;
   input {
     background: $colorGreyDark;
     color: $colorGrey;
@@ -19,7 +20,7 @@
     font-size: 16px;
     left: -35px;
     position: relative;
-    top: 4px;
+    top: 2px;
   }
   button {
     @media (max-width: 500px) {
